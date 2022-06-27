@@ -4,14 +4,75 @@
     box-sizing: border-box;
 }
 body{
-    color: aliceblue;
+    color: #fff;
 }
 .container{
     max-width: 1900px;
     height: 100vh;
-    background-color: black;
 }
 .Overview , .main{
     height: 100vh;
+}
+.Overview{
     border: solid 1px rgb(190, 173, 173);
+    background-color: rgb(248, 248, 248);
+
+}
+
+ul{
+    list-style-type: none;
+}
+
+
+/* Overview */
+.container_Overview{
+    max-width: 500px;
+    height: 100vh;
+    margin-left: 300px;
+    border: solid 1px ;
+    color: rgba(0, 0, 0, 0.658);
+}
+.container_Overview h2{
+    margin: 50px 40px;
+}
+.container_Overview .kpis{
+    margin: 0 40px;
+}
+
+.kpis li{
+    margin-top: 70px;
+    padding-bottom: 12px;
+    border-bottom: solid 1px lightgray;
+}
+.analytics{
+    margin: 30px 40px ;
+}
+.currents span{
+    float: right;
+    padding: 1px 5px;
+    border-radius: 3px;
+    font-size: 12px;
+    color: rgb(140, 146, 151);
+}
+
+
+/* Main */
+.main{
+    padding:50px ;
+}
+.main input[type='text']{
+    width: 300px;
+    height: 25px;
+    padding-left: 7px;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(241, 240, 237);
+}
+.icon-search{
+    position: relative;
+}
+.container-search img{
+    width: 20px;
+    position: absolute;
+    margin: -20px 270px;
 }
